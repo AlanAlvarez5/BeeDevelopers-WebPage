@@ -1,0 +1,29 @@
+import React, { Component } from "react";
+import {Link} from 'react-router-dom';
+
+
+export default class Header extends Component {
+  render() {
+    return (
+      <header>
+        <div className="contenedor">
+          <div className="barra">
+            <a href="/">
+                <img width="50%" height="50%" src="img/logo2.png" alt="Logo"/>
+            </a> 
+
+            <nav className="navegacion">
+              <a href="/nosotros">¿Quienes Somos?</a>
+              <a href="/tallerescursos">Talleres y Cursos</a>
+              <a href="/contacto">Contacto</a>
+            </nav>
+          </div>
+
+          <div className="texto-header">
+            <h2 className="no-margin">Grupo Organizado</h2>
+          </div>
+        </div>
+      </header>
+    );
+  }
+}
