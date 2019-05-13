@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import './header.css';
 
 
-export default class Header extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <header>
