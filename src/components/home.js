@@ -22,7 +22,9 @@ export default class Home extends Component {
               </div>
             </div>
             <div className="section1">
-              <img src="img/img2.jpg" alt="img2" />
+              <div className="imagen">
+                <img src="img/img2.jpg" alt="img2" />
+              </div>
               <div className="descripcion">
                 <h2>De estudiantes para estudiantes</h2>
                 <p>
