@@ -9,19 +9,18 @@ export default class Header extends Component {
       <header>
         <div className="contenedor">
           <div className="barra">
-            <a href="/">
-                <img src="img/logo2.png" alt="Logo"/>
-            </a> 
+            <div className="logotipo">
+              <a href="/">
+                <img className="logo1" src="img/logo1_sintexto.png" alt="logo2" />
+                <img className= "logo2" src="img/logo2.png" alt="Logo" />
+              </a>
+            </div>
 
             <nav className="navegacion">
               <a href="/nosotros">¿Quienes Somos?</a>
               <a href="/tallerescursos">Talleres y Cursos</a>
               <a href="/contacto">Contacto</a>
             </nav>
-          </div>
-
-          <div className="texto-header">
-            <h2 className="no-margin">Grupo Organizado</h2>
           </div>
         </div>
       </header>
