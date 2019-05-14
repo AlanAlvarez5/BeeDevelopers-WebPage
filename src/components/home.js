@@ -16,9 +16,9 @@ export default class Home extends Component {
                   delectus voluptas quidem quos iure, vero esse ipsam
                   sequi?
                 </h4>
-                <button>
-                  <p>Conoce más</p>
-                </button>
+                <a href="/nosotros">
+                  <button>Conoce más</button>
+                </a>
               </div>
             </div>
             <div className="section1">
@@ -34,15 +34,31 @@ export default class Home extends Component {
                 </p>
               </div>
             </div>
-            <img src="img/web.png" alt="web" />
-            <h2>Aprende lo último</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing
-              elit.Quibusdam aliquam repellendus nisi commodi natus
-              maiores enim fuga quae nostrum. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.Quibusdam aliquam repellendus
-              nisi commodi natus maiores enim fuga quae nostrum.
-            </p>
+            <div className="imagen2">
+              <img src="img/web.png" alt="web" />
+            </div>
+            <div className="section2">
+              <h2>Aprende lo último</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Quibusdam aliquam repellendus nisi commodi natus
+                maiores enim fuga quae nostrum. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit.Quibusdam aliquam
+                repellendus nisi commodi natus maiores enim fuga quae
+                nostrum.
+              </p>
+            </div>
+            <div className="lenguajes">
+                <div className="lenguaje-imagen">
+                    <img src="img/python.png" alt="python" />
+                </div>
+                <div className="lenguaje-imagen">
+                    <img src="img/node.png" alt="node.js" />
+                </div>
+                <div className="lenguaje-imagen">
+                    <img src="img/ruby.png" alt="ruby" />
+                </div>
+            </div>
           </div>
         );
     }
