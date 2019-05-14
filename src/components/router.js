@@ -5,6 +5,8 @@ import Nosotros from './nosotros';
 import Contacto from './contacto';
 import Talleres from './talleres';
 import Header from './header';
+import Footer from './footer';
+
 
 export default class Router extends Component {
 
@@ -18,7 +20,7 @@ export default class Router extends Component {
                     <Route exact path="/tallerescursos"component={Talleres} />
                     <Route exact path="/contacto"component={Contacto} />
                 </Switch>
-            
+                <Footer/>
             </BrowserRouter>
         );
     }
