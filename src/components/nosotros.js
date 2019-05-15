@@ -17,7 +17,7 @@ export default class Nosotros extends Component {
                 <hr/>
                 <h2>Misión</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quibusdam aliquam 
-                    repellendus nisi commodi natus maiores enim fuga quae nostrum. 
+                repellendus nisi commodi natus maiores enim fuga quae nostrum. 
                 </p>
                 <h2>Visión</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quibusdam aliquam 
@@ -57,7 +57,7 @@ export default class Nosotros extends Component {
                 </div>
 
                 <h2>Bee Developers</h2>
-                <img src="/img/group.jpg" alt="group"/>
+                <img className="grupo" src="/img/group.jpg" alt="group"/>
             </div>
         );
     }
