@@ -26,7 +26,7 @@ export default class Home extends Component {
                 <img src="img/img2.jpg" alt="img2" />
               </div>
               <div className="descripcion">
-                <h2>De estudiantes para estudiantes</h2>
+              <h2>De estudiantes para estudiantes</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit.Quibusdam aliquam repellendus nisi commodi natus
@@ -34,11 +34,14 @@ export default class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="imagen2">
+            {/* <div className="imagen2">
               <img src="img/web.png" alt="web" />
+            </div> */}
+            <div className="titulo-raro">
+            <h2>Aprende lo último</h2>
             </div>
             <div className="section2">
-              <h2>Aprende lo último</h2>
+              
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
                 elit.Quibusdam aliquam repellendus nisi commodi natus
@@ -49,10 +52,10 @@ export default class Home extends Component {
               </p>
             </div>
             <div className="lenguajes">
-                <div className="lenguaje-imagen">
+                <div className="lenguaje-imagen python">
                     <img src="img/python.png" alt="python" />
                 </div>
-                <div className="lenguaje-imagen">
+                <div className="lenguaje-imagen node">
                     <img src="img/node.png" alt="node.js" />
                 </div>
                 <div className="lenguaje-imagen">

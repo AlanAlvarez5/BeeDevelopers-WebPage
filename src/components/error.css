@@ -1,0 +1,33 @@
+.error{
+    height: calc(100vh - 10rem);
+
+}
+
+.error img{
+    width: 300px;
+
+}
+.error h2{
+    color: black;
+}
+.contenedor-error{
+    padding-top:  10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.contenedor-error h2{
+    padding-right: 5rem;
+}
+
+.texto-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+}
+.vl {
+    border-left: 1px solid black;
+    height: 200px;
+  }
