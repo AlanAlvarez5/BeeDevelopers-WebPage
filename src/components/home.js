@@ -21,17 +21,17 @@ export default class Home extends Component {
                 </a>
               </div>
             </div>
-            <div className="section1">
-              <div className="imagen">
+            <div className="seccion1-home">
+              <div className="imagen-seccion1">
                 <img src="img/img2.jpg" alt="img2" />
               </div>
-              <div className="descripcion">
+              <div className="descripcion-seccion1">
               <h2>De estudiantes para estudiantes</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit.Quibusdam aliquam repellendus nisi commodi natus
-                  maiores enim fuga quae nostrum.
-                </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Quibusdam aliquam repellendus nisi commodi natus
+                maiores enim fuga quae nostrum.
+              </p>
               </div>
             </div>
             {/* <div className="imagen2">
