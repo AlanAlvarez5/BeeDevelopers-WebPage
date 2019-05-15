@@ -52,10 +52,10 @@ export default class Home extends Component {
               </p>
             </div>
             <div className="lenguajes">
-                <div className="lenguaje-imagen">
+                <div className="lenguaje-imagen python">
                     <img src="img/python.png" alt="python" />
                 </div>
-                <div className="lenguaje-imagen">
+                <div className="lenguaje-imagen node">
                     <img src="img/node.png" alt="node.js" />
                 </div>
                 <div className="lenguaje-imagen">

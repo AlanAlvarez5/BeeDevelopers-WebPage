@@ -144,12 +144,19 @@ p{
     padding: 0;
     display:flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    justify-content: center;
+    margin: 0;
     margin-bottom: 10rem;
 }
 
 .lenguajes img{
     width: 250px;
+}
+
+.node{
+    padding-right: 3rem;
+}
+
+.python{
+    padding-right: 3rem;
 }
