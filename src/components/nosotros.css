@@ -1,36 +1,54 @@
-h2{
+.nosotros h2{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+
     font-size: 3rem;
     line-height: 3rem;
+    font-weight: 300;
     text-align: center;
-    margin: 0;
-    padding-top: 3rem;
-    padding-left: 10rem;
-
+    align-self: center;
+    
     color: #0A5085;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-    min-width: 400px;
 }
 
 
-p {
-    font-size: 1.5rem;
-    line-height: 3rem;
-    /* text-align: center; */
-    margin: 0;
-    padding-top: 3rem;
-    padding-left: 10rem;
+.section1 {
+    margin-top: 0px;
+    margin-bottom: 4rem;
+}
 
-    text-align: justify;
+.section1 p {
+    min-width: 400px;
+    max-width: 90%;
+    margin-left: 2rem;
+
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
     font-weight: 300;
-    min-width: 400px;
+    line-height: 3rem;
+    text-align: justify;
 }
 
-.section1 img {
-    width: 30rem;
-    height: 15rem;
-    min-width: 400px;
+hr {
+    max-width: 90%;
+    height: 0.01rem;
+    border-color: #707070;
+    background-color: #707070;
+    border: none;
+}
+
+.section2 {
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.section2 p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
 }
 
 .equipo {
@@ -39,26 +57,55 @@ p {
     flex-wrap: wrap;
 }
 
-
-.miembro img {
-    width: 5rem;
-    height: 5rem;
-    max-width: 5rem;
-    max-height: 5rem;
-    border-radius: 20rem;
+.miembro {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
 }
 
-.miembro h3 {
+.miembro img {
+    width: 8rem;
+    height: 8rem;
+    max-width: 8rem;
+    max-height: 8rem;
+    border-radius: 20rem;
+    
+}
+
+.miembro-imagen {
+    float: left;
+}
+.miembro .texto-miembro {
+    float: right;
+}
+
+.texto-miembro h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.miembro .texto-miembro p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
 }
 
-.miembro p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 0.5rem;
-
-}
 
 .grupo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.grupo1{
+    margin-left: auto;   
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.grupo1 img {
     max-width: 40rem;
 }
