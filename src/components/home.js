@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
 import "./home.css";
 
 export default class Home extends Component {
@@ -16,9 +17,9 @@ export default class Home extends Component {
                   delectus voluptas quidem quos iure, vero esse ipsam
                   sequi?
                 </h4>
-                <a href="/nosotros">
+                <Link to="/nosotros">
                   <button>Conoce más</button>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="seccion1-home">
