@@ -63,41 +63,40 @@ h4{
     min-width: 400px;
 }
 
-.section1{
+.home .section1{
 
     margin-top: 10rem;
     margin-left: 5rem;
     margin-right: 5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 
-.section1 .imagen img{
+.home .section1 .imagen img{
     margin: 0;
     padding: 0;
     width: 500px;
 }
 
-.section1 .imagen{
+.home .section1 .imagen{
     padding-right: 5rem;
 }
-.descripcion h2 p{
+.home .descripcion h2 {
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: center;
+    max-width: 75%;
 }
 
-.descripcion p{
-    text-align: left;
+.home .descripcion p{
     padding-top: 3rem;
-    width: 650px;
 }
 
-.section1 .descripcion{
+.home .section1 .descripcion{
     padding: 0;
     margin: 0;
+
 }
 
 h2{
@@ -120,7 +119,7 @@ p{
 }
 
 
-.section2{
+.home .section2{
     margin-top: 3rem;
     margin-bottom: 10rem;
     display: flex;
