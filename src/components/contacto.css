@@ -63,7 +63,9 @@ h2{
 
 button:hover{
     cursor: pointer;
+    
 }
+
 
 .a-facebook{
     margin-right: 5rem;
@@ -82,7 +84,7 @@ button:hover{
 p{
     margin:0;
     padding: 0;
-
+    color: #3E4756;
 }
 
 .informacion{

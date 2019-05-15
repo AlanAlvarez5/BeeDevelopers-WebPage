@@ -1,0 +1,38 @@
+.talleres {
+    height: calc(100vh - 10rem);
+
+}
+
+.talleres img{
+    width: 300px;
+    margin-right: 4rem;
+}
+.talleres h2{
+    color: black;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    color: #3E4756;
+}
+
+.contenedor-error{
+    padding-top:  10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.contenedor-error h2{
+    padding-right: 5rem;
+}
+
+.texto-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+}
+.vl {
+    border-left: 1px solid black;
+    height: 200px;
+}
+

@@ -16,7 +16,7 @@ export default class Nosotros extends Component {
                     </p>
                 </div>
 
-                <hr/>
+                <div className="vl"></div>
 
                 <div className="section2">
                     <h2>Misión</h2>
@@ -28,9 +28,15 @@ export default class Nosotros extends Component {
                         repellendus nisi commodi natus maiores enim fuga quae nostrum. 
                         </p>
                 </div>
-                <hr/>
 
-                <h2>Nuestro equipo</h2>
+                <div className="vl"></div>
+
+                <div className="section3">
+                    <h2>Nuestro equipo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quibusdam aliquam 
+                    repellendus nisi commodi natus maiores enim fuga quae nostrum. 
+                    </p>
+                </div>
                 <div className="equipo">
                     <div className="miembro">
                         <div className="miembro-imagen">
