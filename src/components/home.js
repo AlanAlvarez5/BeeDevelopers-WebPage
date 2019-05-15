@@ -9,7 +9,7 @@ export default class Home extends Component {
           <div className="home">
             <div className="top" data-parallax="scroll">
               <div>
-                <h1>Desarrollo de Software para todos</h1>
+                <h1>Desarrollo de Software para Todos</h1>
                 <h4>
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Quibusdam aliquam repellendus nisi commodi natus
