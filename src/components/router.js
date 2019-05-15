@@ -6,6 +6,7 @@ import Contacto from './contacto';
 import Talleres from './talleres';
 import Header from './header';
 import Footer from './footer';
+import Error from './error';
 
 
 export default class Router extends Component {
@@ -19,6 +20,7 @@ export default class Router extends Component {
                     <Route exact path="/nosotros"component={Nosotros} />
                     <Route exact path="/tallerescursos"component={Talleres} />
                     <Route exact path="/contacto"component={Contacto} />
+                    <Route component={Error}/>
                 </Switch>
                 <Footer/>
             </BrowserRouter>

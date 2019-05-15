@@ -6,12 +6,12 @@ import './footer.css';
 export default class Footer extends Component {
   render() {
     return (
-      <header>
+      <footer>
         <div className="contenedor">
           <div className="barra">
             <div className="logotipo">
               <a href="/">
-                <img className="logo1" src="img/logo1_sintexto.png" alt="logo2" />
+                
                 <img className= "logo2" src="img/logo2.png" alt="Logo" />
               </a>
             </div>
@@ -23,7 +23,7 @@ export default class Footer extends Component {
             </nav>
           </div>
         </div>
-      </header>
+      </footer>
     );
   }
 }
