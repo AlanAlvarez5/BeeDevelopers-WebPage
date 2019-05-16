@@ -3,27 +3,27 @@ body {
     padding: 0px;
 }
 
-.barra
-{
+.contenedor .barra {
     margin: 0;
     background-color: #0A5085;
+    max-width: 600px;
     width: 100%;
     height: 5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 800px;
-}
-
-.logo2{
-    width: 15em;
-    padding: 20px;
-}
-
-.logo1{
     
-    width: 3.5em;
+}
+
+.logotipo .logo1 {
+    width: 3rem;
+    padding-top: 1rem;
+}
+
+.logotipo .logo2 {
+    width: 10rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.navegacion a {
+    display: none;
 }
 
 .logotipo{
@@ -32,17 +32,43 @@ body {
     align-items: center;
 }
 
-nav a{
-
-    display: inline;
-    margin-right: 2rem;
-    color: white;
-    text-decoration: none;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-
+@media only screen and (min-width: 600px) {
+    
+    
+    .barra
+    {
+        width: 100%;
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo2{
+        width: 15em;
+        padding: 20px;
+        padding-left: 20px;
+    }
+    
+    .logo1{
+        width: 3.5em;
+    }
+    
+    .navegacion a{
+    
+        display: inline;
+        margin-right: 2rem;
+        color: white;
+        text-decoration: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+    }
 }
+
+
 
 
 

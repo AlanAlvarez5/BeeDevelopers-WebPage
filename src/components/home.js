@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
 import "./home.css";
 
 export default class Home extends Component {
@@ -62,6 +63,7 @@ export default class Home extends Component {
                     <img src="img/ruby.png" alt="ruby" />
                 </div>
             </div>
+            <Link to="/tallerescursos"><button className="boton-talleres">Talleres y Cursos ></button></Link>
           </div>
         );
     }
