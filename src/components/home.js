@@ -9,7 +9,7 @@ export default class Home extends Component {
           <div className="home">
             <div className="top" data-parallax="scroll">
               <div>
-                <h1>Desarrollo de Software para todos</h1>
+                <h1>Desarrollo de Software para Todos</h1>
                 <h4>
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Quibusdam aliquam repellendus nisi commodi natus
@@ -17,9 +17,9 @@ export default class Home extends Component {
                   delectus voluptas quidem quos iure, vero esse ipsam
                   sequi?
                 </h4>
-                <a href="/nosotros">
+                <Link to="/nosotros">
                   <button>Conoce más</button>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="seccion1-home">
