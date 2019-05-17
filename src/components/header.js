@@ -6,7 +6,7 @@ import './header.css';
 export default class Header extends Component {
   render() {
     return (
-      <header>
+      <header className="header">
         <div className="contenedor">
           <div className="barra">
             <div className="logotipo">

@@ -27,19 +27,21 @@ h2{
     height: 7.5rem;
     border-radius: 1rem;
     background-color: black;
+    justify-content: flex;
+    justify-content: center;
 }
 
 .facebook-youtube{
     margin:0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+
+
 }
 .instagram-twitter{
     margin:0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+
+
 }
 .facebook{
     /* margin-right: 5rem; */
@@ -68,15 +70,21 @@ button:hover{
 
 
 .a-facebook{
-    margin-right: 5rem;
+
+    margin-left: 5rem;
     margin-bottom: 5rem;
 }
 .a-youtube{
+    margin-left: 5rem;
     margin-bottom: 5rem;
 }
 
 .a-instagram{
-    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+.a-twitter{
+    margin-left: 5rem;
 }
 
 
@@ -91,19 +99,75 @@ p{
     display: block;
     justify-content: center;
     padding-top: 3rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+
 }
 
 .items{
     padding-top: 3rem;
+
 }
 
+.items p{
+    padding-top: 3rem;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 .logo{
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    padding-top: 15rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .facebook-youtube{
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .instagram-twitter{
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .a-facebook{
+        margin-left: 0rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+    .a-youtube{
+        margin-left: 0rem;
+        margin-bottom: 5rem;
+    }
+    
+    .a-instagram{
+        margin-left: 0rem;
+        margin-right: 5rem;
+        margin-bottom: 0rem;
+    }
+    .a-twitter{
+        margin-left: 0rem;
+    }
+
+    .informacion{
+        display: block;
+        justify-content: center;
+        padding-top: 3rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .items p{
+        padding-top: 0rem;
+        text-align: left;
+    }
 }

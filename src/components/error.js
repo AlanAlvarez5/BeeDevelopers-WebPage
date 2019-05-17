@@ -11,6 +11,7 @@ export default class Error extends Component {
                 <h2>Error 404 - Page not found</h2>
                 <div className="vl"></div>
               </div>
+              
               <img src="img/logo3_sintexto.png" alt="Logo negativo" />
             </div>
           </div>
