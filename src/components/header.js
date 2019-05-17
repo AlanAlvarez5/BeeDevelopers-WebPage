@@ -7,7 +7,6 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <div className="contenedor">
           <div className="barra">
             <div className="logotipo">
               <Link to="/">
@@ -17,12 +16,11 @@ export default class Header extends Component {
             </div>
 
             <nav className="navegacion">
-              <Link to="/nosotros">¿Quienes Somos?</Link>
+              <Link to="/nosotros">¿Quiénes Somos?</Link>
               <Link to="/tallerescursos">Talleres y Cursos</Link>
               <Link to="/contacto">Contacto</Link>
             </nav>
           </div>
-        </div>
       </header>
     );
   }
