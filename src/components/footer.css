@@ -22,13 +22,14 @@ body {
     padding-top: 2rem;
 
 }
-.navegacion a {
+.footer .navegacion a {
     display: none;
 }
 
 .logotipo{
     padding-left: 2rem;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -55,7 +56,7 @@ body {
         width: 3.5em;
     }
     
-    .navegacion a{
+    .footer .navegacion a{
         display: inline;
         margin-right: 2rem;
         color: white;

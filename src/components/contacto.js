@@ -36,7 +36,7 @@ export default class Contacto extends Component {
                   </a>
                 </div>
                 <div className="a-twitter">
-                  <a href="twitter.com" target="blank">
+                  <a href="https://www.twitter.com/" target="blank">
                     <button className="twitter">Twitter</button>
                   </a>
                 </div>
@@ -48,7 +48,7 @@ export default class Contacto extends Component {
                 <p>Teléfono: 4646464646</p>
                 <p>Correo: b.dev@gmail.com</p>
                 <p>
-                  Domicio: Oficinas de CEMERSC. Camino a Palo Blanco
+                  Domicilio: Oficinas de CEMER. Camino a Palo Blanco
                   #227 Salamanca, Guanajuato.
                 </p>
               </div>

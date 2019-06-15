@@ -209,6 +209,7 @@ p{
 
     .lenguajes {
         flex-direction: row;
+        justify-content: center;
     }
     .boton-talleres {
         display: none;

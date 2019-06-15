@@ -6,7 +6,7 @@ import './footer.css';
 export default class Footer extends Component {
   render() {
     return (
-      <footer>
+      <footer className="footer">
         <div className="contenedor">
           <div className="barra">
             <div className="logotipo">

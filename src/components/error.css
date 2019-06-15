@@ -3,31 +3,65 @@
 
 }
 
-.error img{
-    width: 300px;
+.error img, .talleres img{
+    width:100px;
 
 }
 .error h2{
     color: black;
 }
 .contenedor-error{
-    padding-top:  10rem;
+    padding-top:  3rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center
 }
 
 .contenedor-error h2{
-    padding-right: 5rem;
+    text-align: center;
+    padding-right: 0rem;
 }
 
 .texto-error{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 5rem;
+    padding: 0;
+    margin-bottom: 5rem;
 }
 .vl {
-    border-left: 1px solid black;
-    height: 200px;
+    display: none;
+  }
+
+  @media only screen and (min-width: 600px){
+    .vl {
+        display: flex;
+        border-left: 1px solid black;
+        height: 200px;
+      }
+
+      .contenedor-error{
+        padding-top:  10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .contenedor-error{
+        
+        flex-direction: row;
+    }
+    .contenedor-error h2{
+        padding-right: 5rem;
+    }
+
+    .error img, .talleres img{
+        width: 300px;
+        margin-right: 4rem;
+    }
+
+    .texto-error{
+        padding-right: 5rem;
+        margin-bottom: 0rem;
+    }
   }
