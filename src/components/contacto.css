@@ -1,8 +1,4 @@
-.contacto{
-    margin: 0;
-    padding: 0;
-    padding-top: 3rem;
-}
+
 
 h2{
     font-size: 3rem;
@@ -15,171 +11,71 @@ h2{
     text-align: center;
 }
 
-.botones{
+.informacion p{
+    font-size: 1.5rem;
+    line-height: 3rem;
     margin: 0;
-    padding: 0;
-    padding-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.botones button{
-    margin:0;
-    padding: 0;
-    width: 15rem;
-    height: 7.5rem;
-    border-radius: 1rem;
-    background-color: black;
-}
-
-.facebook-youtube{
-    margin:0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-
-}
-.instagram-twitter{
-    margin:0;
-    padding: 0;
-
-
-}
-.facebook{
-    /* margin-right: 5rem; */
-    /* margin-bottom: 5rem; */
-    background: linear-gradient(135deg, #0A5186, #1997D9);
-    color: white;
-}
-.instagram{
-    /* margin-right: 5rem; */
-    background: linear-gradient(135deg, #0401FB ,  #FD3C61 , #F8F009 );
-    color: white;
-}
-.youtube{
-    background: linear-gradient(135deg, #900000  , #FC0000 );
-    color: white;
-}
-.twitter{
-    background: linear-gradient(135deg, #00A7FF  , #00F0FA );
-    color: white;
-}
-
-button:hover{
-    cursor: pointer;
-    box-shadow: #3E4756 3px 3px 10px ;
-}
-
-
-.a-facebook{
-    margin-left: 0rem;
-    margin-bottom: 5rem;
-
-}
-.a-youtube{
-    margin-left: 0rem;
-    margin-bottom: 5rem;
-
-}
-
-.a-instagram{
-    margin-left: 0rem;
-    margin-bottom: 5rem;
-}
-.a-twitter{
-    margin-left: 0rem;
-}
-
-
-
-p{
-    margin:0;
-    padding: 0;
-    color: #3E4756;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
 }
 
 .informacion{
-    display: block;
-    justify-content: center;
-    padding-top: 3rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    text-align: center;
-
-}
-
-.items{
-    padding-top: 3rem;
-
-}
-
-.items p{
-    padding-top: 3rem;
-    text-align: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.logo{
-    margin: 0;
-    padding: 0;
+    margin-top: 5rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.informacion h2{
+    margin-bottom: 3rem;
+}
+
+.redes-sociales{
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-sociales h2{
+    margin-bottom: 3rem;
+}
+
+.contacto-links{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 }
 
-@media only screen and (min-width: 600px) {
-    .facebook-youtube{
-        margin:0;
-        padding: 0;
-        display: flex;
-
-    flex-direction: row;
-
-        justify-content: center;
-    }
-    .instagram-twitter{
-        margin:0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .a-facebook{
-        margin-left: 0rem;
-        margin-right: 5rem;
-        margin-bottom: 5rem;
-    }
-    .a-youtube{
-        margin-left: 0rem;
-        margin-bottom: 5rem;
-    }
-    
-    .a-instagram{
-        margin-left: 0rem;
-        margin-right: 5rem;
-        margin-bottom: 0rem;
-    }
-    .a-twitter{
-        margin-left: 0rem;
-    }
-
-    .informacion{
-        display: block;
-        justify-content: center;
-        padding-top: 3rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-    }
-
-    .items p{
-        padding-top: 0rem;
-        text-align: left;
-    }
+.contacto-links i{
+    margin: 0 3rem;
+    font-size: 5rem;
 }
+
+.facebook i{
+    color: #3b5998;
+}
+.youtube i{
+    color: #c4302b;
+}
+.instagram i{
+    color: #C13584;
+}
+.twitter i{
+    color: #00acee;
+}
+
+@media(max-width: 768px){
+    .contacto-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contacto-links i{
+        margin: 1rem 3rem;
+        font-size: 5rem;
+    }
+} 
