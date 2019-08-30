@@ -22,7 +22,7 @@ export default class Router extends Component {
                     <Route exact path="/contacto"component={Contacto} />
                     <Route component={Error}/>
                 </Switch>
-                <Footer/>
+                <Header/>
             </BrowserRouter>
         );
     }

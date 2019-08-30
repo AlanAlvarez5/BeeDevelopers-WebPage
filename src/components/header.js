@@ -7,20 +7,16 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-          <div className="barra">
-            <div className="logotipo">
-              <Link to="/">
-                <img className="logo1" src="img/logo1_sintexto.png" alt="logo2" />
-                <img className= "logo2" src="img/logo2.png" alt="Logo" />
-              </Link>
-            </div>
+            <Link className="header-logotipo" to="/">
+              <img className="header-logo1" src="img/logo1_sintexto.png" alt="logo2" />
+              <img className= "header-logo2" src="img/logo2.png" alt="Logo" />
+            </Link>
 
-            <nav className="navegacion">
+            <nav className="header-navegacion">
               <Link to="/nosotros">¿Quiénes Somos?</Link>
               <Link to="/tallerescursos">Talleres y Cursos</Link>
               <Link to="/contacto">Contacto</Link>
             </nav>
-          </div>
       </header>
     );
   }
