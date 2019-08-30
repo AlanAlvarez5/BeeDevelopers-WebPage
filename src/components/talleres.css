@@ -3,3 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+.talleres h2{
+    margin: 5rem 0;
+}
