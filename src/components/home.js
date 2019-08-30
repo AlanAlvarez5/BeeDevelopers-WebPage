@@ -7,26 +7,25 @@ export default class Home extends Component {
     render() {
         return (
           <div className="home">
-            <div className="top" data-parallax="scroll">
-              <div>
+            <div className="home-top" data-parallax="scroll">
+              <div className="home-top-titulo">
                 <h1>Desarrollo de Software para Todos</h1>
-                <h4>
+                <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Quibusdam aliquam repellendus nisi commodi natus
                   maiores enim fuga quae nostrum. Reprehenderit aliquid
                   delectus voluptas quidem quos iure, vero esse ipsam
                   sequi?
-                </h4>
+                </p>
                 <Link to="/nosotros">
-                  <button>Conoce más</button>
+                  <button className="btn-2 btn-2g btn">Conoce más
+                  </button>
                 </Link>
               </div>
             </div>
-            <div className="seccion1-home">
-              <div className="imagen-seccion1">
-                <img src="img/img2.jpg" alt="img2" />
-              </div>
-              <div className="descripcion-seccion1">
+            <div className="home-seccion1">
+              <img src="img/student.svg" alt="Estudiante" />
+              <div className="home-seccion1-descr">
               <h2>De estudiantes para estudiantes</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
@@ -35,14 +34,8 @@ export default class Home extends Component {
               </p>
               </div>
             </div>
-            {/* <div className="imagen2">
-              <img src="img/web.png" alt="web" />
-            </div> */}
-            <div className="titulo-raro">
-            <h2>Aprende lo último</h2>
-            </div>
-            <div className="section2">
-              
+            <div className="home-seccion2">
+              <h2>Aprende lo último</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
                 elit.Quibusdam aliquam repellendus nisi commodi natus
@@ -51,19 +44,17 @@ export default class Home extends Component {
                 repellendus nisi commodi natus maiores enim fuga quae
                 nostrum.
               </p>
+              <div className="home-lenguajes">
+                      <img src="img/python.png" alt="python" />
+                      <img src="img/node.png" alt="node.js" />
+                      <img src="img/ruby.png" alt="ruby" />
+                      <img src="img/react.png" alt="react" />
+                      <img src="img/html.png" alt="html" />
+                      <img src="img/js.png" alt="js" />
+              </div>
+              
+              <Link to="/tallerescursos"><button className="btn btn-2g btn-2">Talleres y Cursos </button></Link>
             </div>
-            <div className="lenguajes">
-                <div className="lenguaje-imagen python">
-                    <img src="img/python.png" alt="python" />
-                </div>
-                <div className="lenguaje-imagen node">
-                    <img src="img/node.png" alt="node.js" />
-                </div>
-                <div className="lenguaje-imagen">
-                    <img src="img/ruby.png" alt="ruby" />
-                </div>
-            </div>
-            <Link to="/tallerescursos"><button className="boton-talleres">Talleres y Cursos ></button></Link>
           </div>
         );
     }

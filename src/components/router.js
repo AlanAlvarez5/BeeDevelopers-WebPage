@@ -5,7 +5,6 @@ import Nosotros from './nosotros';
 import Contacto from './contacto';
 import Talleres from './talleres';
 import Header from './header';
-import Footer from './footer';
 import Error from './error';
 
 
