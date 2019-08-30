@@ -63,6 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    padding: 0 5rem;
     margin-top: 10rem;
 }
 
@@ -91,7 +92,7 @@ body {
 }
 
 .home-seccion1-descr{
-   padding: 0 10rem;
+   margin-left: 5rem;
 }
 
 
