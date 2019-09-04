@@ -86,6 +86,7 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 3rem;
+    padding-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 3rem;
     text-align: justify;
@@ -147,6 +148,8 @@ body {
 
     .home-top-titulo p{
         font-size: 1.2rem;
+        line-height: 1.4rem;
+
     }
 
     .btn{
@@ -172,12 +175,24 @@ body {
      
     .home-seccion1 h2{
         text-align: center;
+        font-size: 2.3rem;
+
     }
     .home-seccion1 p{
         text-align: center;
-    }
-    
+        line-height: 2.2rem;
 
+    }
+    .home-seccion2 h2{
+        text-align: center;
+        font-size: 2.3rem;
+
+    }
+    .home-seccion2 p{
+        text-align: center;
+        line-height: 2.2rem;
+
+    }
      .home-lenguajes{
          display: none;
      }
