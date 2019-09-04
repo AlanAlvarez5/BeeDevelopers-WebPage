@@ -2,8 +2,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .talleres h2{
     margin: 5rem 0;
+}
+
+.talleres-formularios{
+    display: flex;
+    flex-direction: column;
+}
+.talleres-formularios iframe{
+    width: 580px;
+}
+
+.first-row{
+    margin-bottom: 3rem;
+}
+
+@media(max-width: 768px){
+    .talleres-formularios iframe{
+        width: 480px;
+    }
+
+    .first-row{
+        margin-bottom: 0;
+    }
 }
