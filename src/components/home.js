@@ -11,11 +11,7 @@ export default class Home extends Component {
               <div className="home-top-titulo">
                 <h1>Desarrollo de Software para Todos</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Quibusdam aliquam repellendus nisi commodi natus
-                  maiores enim fuga quae nostrum. Reprehenderit aliquid
-                  delectus voluptas quidem quos iure, vero esse ipsam
-                  sequi?
+                  BeeDevelopers es el grupo organizado de la Universidad de Guanajuato enfocado en el desarrollo de software. Aprende desde las bases de la programación hasta los frameworks más modernos. Tenemos cursos y talleres para personas de cualquier nivel. Conoce más acerca de nosotros.
                 </p>
                 <Link to="/nosotros">
                   <button className="btn-2 btn-2g btn">Conoce más
@@ -26,23 +22,16 @@ export default class Home extends Component {
             <div className="home-seccion1">
               <img src="img/student.svg" alt="Estudiante" />
               <div className="home-seccion1-descr">
-              <h2>De estudiantes para estudiantes</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.Quibusdam aliquam repellendus nisi commodi natus
-                maiores enim fuga quae nostrum.
-              </p>
+                <h2>De estudiantes para estudiantes</h2>
+                <p>
+                  El trabajo colaborativo es parte de la identidad de BeeDevelopers. Nos enfocamos a reunir personas con distintos conocimientos y habilidades para después compartirlos e incrementar los skills del resto del grupo. 
+                </p>
               </div>
             </div>
             <div className="home-seccion2">
               <h2>Aprende lo último</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.Quibusdam aliquam repellendus nisi commodi natus
-                maiores enim fuga quae nostrum. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.Quibusdam aliquam
-                repellendus nisi commodi natus maiores enim fuga quae
-                nostrum.
+                Crear un servidor en NodeJS, usar una librería de inteligencia artificial en Python, consumir una API. ¿No sabes cómo hacerlo? Estás en el sitio indicado. No estamos limitados a un solo tipo de herramienta sino que incluimos una gran variedad de lenguajes y te animamos a descubrir aún más.
               </p>
               <div className="home-lenguajes">
                       <img src="img/python.png" alt="python" />

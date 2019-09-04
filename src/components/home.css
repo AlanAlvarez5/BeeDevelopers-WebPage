@@ -47,6 +47,7 @@ body {
     padding: 0rem 5rem;
     padding-top: 3rem;
     font-size: 1.5rem;
+    max-width: 60rem;
     font-weight: 300;
     line-height: 2rem;
     text-align: center;
@@ -57,6 +58,7 @@ body {
 
 .home-seccion1 img{
     width: 25rem;
+    max-width: 90%;
 }
 
 .home-seccion1{
@@ -92,7 +94,8 @@ body {
 }
 
 .home-seccion1-descr{
-   margin-left: 5rem;
+   margin-left: 4rem;
+   max-width: 60%;
 }
 
 
