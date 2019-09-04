@@ -144,11 +144,15 @@ body {
 @media(max-width: 768px) {
     .home-top-titulo h1{
         font-size: 2rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
     }
 
     .home-top-titulo p{
-        font-size: 1.2rem;
-        line-height: 1.4rem;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
 
     }
 
@@ -171,27 +175,36 @@ body {
     .home-seccion1-descr{
         margin-left: 0rem;
         max-width: 100%;
+        min-width: 18rem;
      }
      
     .home-seccion1 h2{
         text-align: center;
         font-size: 2.3rem;
-
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
     }
     .home-seccion1 p{
         text-align: center;
         line-height: 2.2rem;
 
     }
+    .home-seccion2 {
+        padding-right: 2.2rem;
+        padding-left: 2.2rem;
+    }
+
     .home-seccion2 h2{
         text-align: center;
         font-size: 2.3rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
 
     }
     .home-seccion2 p{
         text-align: center;
         line-height: 2.2rem;
-
+        padding-bottom: 3rem;
     }
      .home-lenguajes{
          display: none;
