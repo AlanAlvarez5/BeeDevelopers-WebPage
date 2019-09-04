@@ -49,7 +49,7 @@ export default class Nosotros extends Component {
                     </div>
                     <div className="nosotros-miembro">
                         <div className="nosotros-miembro-imagen">
-                            <img src="/img/Manuel.jpeg" alt="man"/>
+                            <img src="/img/Manuel2.jpeg" alt="man"/>
                         </div>
                         <div className="nosotros-texto-miembro">
                             <h3>
