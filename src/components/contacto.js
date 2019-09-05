@@ -35,7 +35,7 @@ export default class Contacto extends Component {
                   </a>
                 </div>
                 <div className="twitter">
-                  <a href="https://www.twitter.com/" target="blank">
+                  <a href="https://twitter.com/BeeDevelopers" target="blank">
                     <i class="fab fa-twitter-square"></i>
                   </a>
                 </div>
