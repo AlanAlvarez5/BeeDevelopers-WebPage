@@ -25,7 +25,7 @@ export default class Contacto extends Component {
                   </a>
                 </div>
                 <div className="youtube">
-                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
+                  <a href="https://www.youtube.com/" target="blank">
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
