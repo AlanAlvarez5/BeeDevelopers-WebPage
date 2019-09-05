@@ -19,12 +19,10 @@ export default class Nosotros extends Component {
 
                 <div className="nosotros-section2">
                     <h2>Misión</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quibusdam aliquam 
-                        repellendus nisi commodi natus maiores enim fuga quae nostrum. 
+                        <p>Organizar actividades académicas, de difusión y de vinculación, enfocadas a complementar el perfil de egreso de los estudiantes de la Licenciatura en Ingeniería en Sistemas Computacionales (LISC) de la DICIS-UG, con la finalidad de generar una cohesión estudiantil que ayude a que la LISC tenga una identidad propia dentro de la división y la universidad. Lo anterior en colaboración con otras organizaciones estudiantiles, académicas y profesionales, dentro y fuera de la universidad, fomentando siempre el aprendizaje mutuo y la convivencia entre estudiantes.
                         </p>
                     <h2>Visión</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quibusdam aliquam 
-                        repellendus nisi commodi natus maiores enim fuga quae nostrum. 
+                        <p>Consolidar una comunidad de estudiantes y egresados de la LISC para el desarrollo de proyectos y actividades académicas, de difusión y de vinculación, que permitan que la esencia de la LISC y de la UG se extienda hacia la sociedad.
                         </p>
                 </div>
 
@@ -49,6 +47,17 @@ export default class Nosotros extends Component {
                     </div>
                     <div className="nosotros-miembro">
                         <div className="nosotros-miembro-imagen">
+                            <img src="/img/valeria.png" alt="man"/>
+                        </div>
+                        <div className="nosotros-texto-miembro">
+                            <h3>
+                                Vicepresidente
+                            </h3>
+                            <p>Valeria Cortés</p>
+                        </div>
+                    </div>
+                    <div className="nosotros-miembro">
+                        <div className="nosotros-miembro-imagen">
                             <img src="/img/Manuel2.jpeg" alt="man"/>
                         </div>
                         <div className="nosotros-texto-miembro">
@@ -60,24 +69,13 @@ export default class Nosotros extends Component {
                     </div>
                     <div className="nosotros-miembro">
                         <div className="nosotros-miembro-imagen">
-                            <img src="/img/man.jpg" alt="man"/>
+                            <img src="/img/idalid.png" alt="man"/>
                         </div>
                         <div className="nosotros-texto-miembro">
                             <h3>
                                 Tesorero
                             </h3>
                             <p>Idalid Ávila</p>
-                        </div>
-                    </div>
-                    <div className="nosotros-miembro">
-                        <div className="nosotros-miembro-imagen">
-                            <img src="/img/man.jpg" alt="man"/>
-                        </div>
-                        <div className="nosotros-texto-miembro">
-                            <h3>
-                                Vicepresidente
-                            </h3>
-                            <p>Valeria Cortés</p>
                         </div>
                     </div>
                 </div>
