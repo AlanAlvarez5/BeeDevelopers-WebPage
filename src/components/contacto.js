@@ -9,7 +9,6 @@ export default class Contacto extends Component {
 
             <div className="informacion">
               <h2>Contacto</h2>
-              <p>Teléfono: (464) 646-46-46</p>
               <p>E-mail: b.dev@gmail.com</p>
               <p>
                 Domicilio: Oficinas de CEMER. Camino a Palo Blanco
