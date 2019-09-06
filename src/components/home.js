@@ -11,7 +11,7 @@ export default class Home extends Component {
               <div className="home-top-titulo">
                 <h1>Desarrollo de Software para Todos</h1>
                 <p>
-                  BeeDevelopers es el grupo organizado de la Universidad de Guanajuato enfocado en el desarrollo de software. Aprende desde las bases de la programación hasta los frameworks más modernos. Tenemos cursos y talleres para personas de cualquier nivel. Conoce más acerca de nosotros.
+                  BeeDevelopers es el grupo organizado de la Universidad de Guanajuato enfocado en el desarrollo de software. Aprende desde las bases de la programación hasta los frameworks más modernos. Tenemos cursos y talleres para personas de cualquier nivel.
                 </p>
                 <Link to="/nosotros">
                   <button className="btn-2 btn-2g btn">Conoce más

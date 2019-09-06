@@ -9,7 +9,6 @@ export default class Contacto extends Component {
 
             <div className="informacion">
               <h2>Contacto</h2>
-              <p>Teléfono: (464) 646-46-46</p>
               <p>E-mail: b.dev@gmail.com</p>
               <p>
                 Domicilio: Oficinas de CEMER. Camino a Palo Blanco
@@ -26,7 +25,7 @@ export default class Contacto extends Component {
                   </a>
                 </div>
                 <div className="youtube">
-                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
+                  <a href="https://www.youtube.com/" target="blank">
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
@@ -36,7 +35,7 @@ export default class Contacto extends Component {
                   </a>
                 </div>
                 <div className="twitter">
-                  <a href="https://www.twitter.com/" target="blank">
+                  <a href="https://twitter.com/BeeDevelopers" target="blank">
                     <i class="fab fa-twitter-square"></i>
                   </a>
                 </div>
